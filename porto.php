@@ -27,7 +27,7 @@ if(isset($_POST["btn"])){
         $mail->Subject = $_POST["name"];
         $mail->Body =  $_POST["email"]."<h3 class='btn btn-danger'>". $_POST["phone"]."</h3>". $_POST["area"];
         $mail->send();
-        header("location: index.html", true);
+//         header("location: index.html", true);
        
 };
 
