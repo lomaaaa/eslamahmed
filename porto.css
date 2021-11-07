@@ -1,0 +1,353 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    padding-left: 0px;
+
+}
+body{
+    background-image:url(Img/body.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.containe{
+    width: 100%;
+}
+.left-link .close{
+    display: none;
+}
+.container-left{
+    width: 25%;
+    float: left;
+    height: 100vh;
+    position:fixed;
+    left:0;
+    top: 0;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(1,1fr);
+}
+.container-left img{
+    width:50%;
+    border-radius: 50%;
+    display: block;
+    justify-self: center;
+}
+.container-font{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.container-font .bold{
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+}
+
+.container-left span{
+    font-size: 20px;
+    text-align: center;
+    font-weight:bold;
+    color:white
+}
+.container-font .font{
+    font-size: 35px;
+}
+
+.container-left .left-link ul{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+
+}
+.container-left .left-link ul li{
+list-style: none;
+width: 220px;
+margin: 5px;
+padding: 5px;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.452);
+}
+.container-left .left-link ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    
+
+}
+.container-left .left-link ul li a i{
+    float:left;
+    padding: 5px;
+    color: white;
+}
+.container-left .left-link p{
+    position:relative;
+    bottom: 0px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+.container-ul{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+}
+.container-ul li{
+    list-style: none;
+    font-size: 25px;
+    padding: 1px;
+}
+
+.container-right{
+    float: right;
+    width: 75%;
+   
+}
+
+.container-right .code{
+    height: 90vh;
+    display: grid;
+    justify-content: center;
+    
+}
+.code img{
+    width: 400px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 10px;
+}
+.container-right .code h1, h2, h3{
+    align-self: center;
+    text-align: center;
+    color: white;
+}
+.container-about{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+}
+.container-about p, .container-skils p,.container-facts p,.container-porto p{
+    width: 80%;
+    font-size: 25px;
+    justify-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.container-about h2{
+    font-size: 30px;
+}
+.container-about h1, .container-facts h1,.container-conect h1,.container-skils h1,.container-porto h1,.master-container h1{
+    color: turquoise;
+    border-bottom: 2px turquoise solid;
+    width: 80%;
+    margin-left: 10%;
+}
+.container-flex ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
+.container-flex ul li{
+    list-style: none;
+    font-size: 25px;
+    width: 100%;
+    
+}
+.container-flex ul li span, .container-right .code span, .container-about h2 span,.container-left .and, footer span{
+    color: tomato;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.container-succs{
+    display: grid;
+}
+.container-succs p{
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif
+}
+strong{
+    color: turquoise;
+    text-decoration: underline;
+    font-style: italic;
+}
+.container-facts,.container-skils,.container-about{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+
+}
+.master-facts{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+}
+.container-facts .facts{
+    padding: 20px;
+}
+.container-facts .facts .block{
+    width: 300px;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+}
+.container-facts .facts .hours{
+    font-size:40px;
+    text-align: center;
+}
+.container-facts .facts .block i{
+    float: left;
+    padding: 10px;
+
+}
+.hours{
+    display: block;
+    color:tomato;
+}
+
+
+.container-skils .range{
+    margin: 15px;
+}
+.up{
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    width: 35px;
+    border-radius:10px;
+    background-color: turquoise;
+}
+
+.container-porto{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    height: 150vh;
+}
+.container-ul{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    padding-left: 0px;
+}
+.container-ul li{
+    margin: 5px;
+    height: 250px;
+}
+.container-ul li img{
+   width: 350px;
+   border-radius: 20px;
+   height: 250px;
+   opacity: 0.5;
+}
+
+
+.container-ul li img:hover{
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+
+
+
+.container-ul1{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+}
+.container-ul1 li{
+    list-style: none;
+    font-size: 25px;
+    padding: 1px;
+    border-radius: 10px;
+}
+.container-ul1 li img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+.container-conect {
+    width: 100%;
+   display: grid;
+   height: 100vh;
+   grid-template-columns: repeat(2,1fr);
+}
+.container-conect form,.container-conect form input{
+   width:100%;
+}
+.container-conect textarea{
+    background-color: transparent;
+    width:100%;
+    margin-top: 10px;
+   
+}
+.container-conect form input{
+    background-color: transparent;
+    margin-top: 10px;
+}
+.container-conect .btn{
+    width:100%;
+    margin-top: 10px;
+}
+
+.container-conect iframe{
+    width:80%;
+    justify-self: center;
+
+}
+.master-container{
+    height: 120vh;
+}
+.master-container h1{
+    text-align: center;
+}
+
+.container-conect h1{ 
+    text-align: center;
+}
+::placeholder{
+    text-align: center;
+    line-height: 5;
+    color: rgba(128, 128, 128, 0.473);
+}
+footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: 100px;
+}
+footer ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width:100%;
+ 
+}
+footer ul li{
+    list-style: none;
+    font-size: 35px;
+}
+footer p{
+    font-size: 30px;
+}
+.fa-whatsapp{
+    color: rgb(125, 231, 18);
+    cursor: pointer;
+}
+.fa-facebook{
+    color: rgb(2, 120, 255);
+    cursor: pointer;
+}
+.fa-instagram{
+color: rgb(211, 12, 211);
+cursor: pointer;
+}
